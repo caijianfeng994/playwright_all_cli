@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-login-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests for SauceDemo login functionality",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright test --reporter=html",
+    "show-report": "playwright show-report",
+    "install-browsers": "playwright install",
+    "install-chromium": "playwright install chromium",
+    "codegen": "playwright codegen https://saucedemo.com"
+  },
+  "keywords": ["playwright", "testing", "automation", "saucedemo"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0"
+  }
+}
